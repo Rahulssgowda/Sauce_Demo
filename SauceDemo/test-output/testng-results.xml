@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully Login]]>
+    </line>
+    <line>
+      <![CDATA[Home page is successfully Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Products are successfully added to Cart]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Created Order Summary]]>
+    </line>
+    <line>
+      <![CDATA[Thank you for your order!]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Logout]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-10-21T23:15:44 IST" name="Default suite" finished-at="2025-10-21T23:15:50 IST" duration-ms="6365">
+    <groups>
+    </groups>
+    <test started-at="2025-10-21T23:15:44 IST" name="Default test" finished-at="2025-10-21T23:15:50 IST" duration-ms="6365">
+      <class name="com.generic.SauceDemo.TC_001">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.generic.SauceDemo.TC_001@233795b6]" started-at="2025-10-21T23:15:44 IST" name="openBrowser" finished-at="2025-10-21T23:15:45 IST" duration-ms="1360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.generic.SauceDemo.TC_001@233795b6]" started-at="2025-10-21T23:15:45 IST" name="login" finished-at="2025-10-21T23:15:49 IST" duration-ms="3362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="e2eScenario()[pri:0, instance:com.generic.SauceDemo.TC_001@233795b6]" started-at="2025-10-21T23:15:49 IST" name="e2eScenario" finished-at="2025-10-21T23:15:50 IST" duration-ms="1203" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Login]]>
+            </line>
+            <line>
+              <![CDATA[Home page is successfully Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Products are successfully added to Cart]]>
+            </line>
+            <line>
+              <![CDATA[Successfully Created Order Summary]]>
+            </line>
+            <line>
+              <![CDATA[Thank you for your order!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- e2eScenario -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.generic.SauceDemo.TC_001@233795b6]" started-at="2025-10-21T23:15:50 IST" name="logout" finished-at="2025-10-21T23:15:50 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.generic.SauceDemo.TC_001@233795b6]" started-at="2025-10-21T23:15:50 IST" name="closeBrowser" finished-at="2025-10-21T23:15:50 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.generic.SauceDemo.TC_001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
