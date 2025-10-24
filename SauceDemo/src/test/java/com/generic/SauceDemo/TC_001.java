@@ -82,14 +82,13 @@ public class TC_001 extends BaseClass {
 		}
 
 		//Validating the cart only with products.
+
+		//String product1 = file.getExcelData("SauceData", 13, 0);
+		//String product2 = file.getExcelData("SauceData", 13, 1);
 		
 		//		for(WebElement item:products)
 		//		{
-		//			
 		//			String prodName =item.getText();
-		////			String product1 = file.getExcelData("SauceData", 13, 0);
-		////			String product2 = file.getExcelData("SauceData", 13, 1);
-		//			
 		//			if(!(prodName.equals(product1) || prodName.equals(product2))) {
 		//				cartValidate=false;
 		//				Reporter.log("Cart products Mismatch", true);
@@ -149,3 +148,4 @@ public class TC_001 extends BaseClass {
 
 
 }
+
