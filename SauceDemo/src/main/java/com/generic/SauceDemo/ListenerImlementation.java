@@ -14,8 +14,15 @@ public class ListenerImlementation extends BaseClass implements ITestListener {
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
-		// TODO Auto-generated method stub
-		ITestListener.super.onTestSuccess(result);
+		String name = result.getName();
+		TakesScreenshot t=(TakesScreenshot) driver;
+		File src = t.getScreenshotAs(OutputType.FILE);
+		File dest=new File("./ScreenShot/"+name+" Success"+".png");
+		try {
+			FileUtils.copyFile(src, dest);
+		} 
+		catch (IOException e) {
+		}
 	}
 
 	@Override
@@ -35,7 +42,7 @@ public class ListenerImlementation extends BaseClass implements ITestListener {
 		String name = result.getName();
 		TakesScreenshot t=(TakesScreenshot) driver;
 		File src = t.getScreenshotAs(OutputType.FILE);
-		File dest=new File("./ScreenShot/"+name+".png");
+		File dest=new File("./ScreenShot/"+name+" Failure"+".png");
 		try {
 			FileUtils.copyFile(src, dest);
 		} 
@@ -102,3 +109,4 @@ public class ListenerImlementation extends BaseClass implements ITestListener {
 
 
 }
+
